@@ -41,12 +41,12 @@ flowchart TD
     H --> I[Celebratory Merge & Recognition]
 
     %% Repo Ecosystem
-    I --> J[MAG-COC 🌌]
-    J --> K[ClashComm-HOME 🌌]
-    J --> L[Aggregated-COC-APIs 🔗]
-    J --> M[COC-Dashboard 📊]
-    J --> N[CWL-Rosters 🏆]
-    J --> O[Community-Noticeboard 📣]
+    I --> J[MAG-COC]
+    J --> K[ClashComm-HOME]
+    J --> L[Aggregated-COC-APIs]
+    J --> M[COC-Dashboard]
+    J --> N[CWL-Rosters ]
+    J --> O[Community-Noticeboard 
     J --> P[Community-Stats]
 
     %% Sub-nodes for clarity
@@ -74,25 +74,25 @@ flowchart TD
 ## Ecosystem
 ```mermaid
 flowchart TD
-    A[👤 Contributor] --> B[📣 Open Issue]
-    B --> C[🎉 Pull Request]
-    C --> D[🛡 Governance Check]
-    D --> E[✅ CHANGELOG + Emoji Legends]
-    E --> F[🏅 Update CONTRIBUTORS.md]
-    F --> G[📊 Build & Test (PHP + Composer)]
-    G --> H[🚀 Deploy to Hostinger]
-    H --> I[🎉 Celebratory Merge & Recognition]
+    A[Contributor] --> B[Open Issue]
+    B --> C[Pull Request]
+    C --> D[Governance Check]
+    D --> E[CHANGELOG + Emoji Legends]
+    E --> F[Update CONTRIBUTORS.md]
+    F --> G[Build & Test (PHP + Composer)]
+    G --> H[Deploy to Hostinger]
+    H --> I[Celebratory Merge & Recognition]
 ```
 ---
 
 ```mermaid
 graph TD
-    A[MAG-COC 🌌] --> B[ClashComm-HOME 🌌]
-    A --> C[Aggregated-COC-APIs 🔗]
-    A --> D[COC-Dashboard 📊]
-    A --> E[CWL-Rosters 🏆]
-    A --> F[Community-Noticeboard 📣]
-    A --> G[Community-Stats 📊]
+    A[MAG-COC] --> B[ClashComm-HOME]
+    A --> C[Aggregated-COC-APIs]
+    A --> D[COC-Dashboard]
+    A --> E[CWL-Rosters]
+    A --> F[Community-Noticeboard]
+    A --> G[Community-Stats]
 
     B --> B1[Governance Playbooks]
     B --> B2[Audit Logs]
