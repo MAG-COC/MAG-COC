@@ -71,36 +71,14 @@ flowchart TD
     class G,H technical
     class I celebratory
 
-    %% Define styles
-    classDef contributor fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef governance fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef technical fill:#bfb,stroke:#333,stroke-width:2px;
-    classDef celebratory fill:#ffb,stroke:#333,stroke-width:2px;
+    %% Define styles with black text
+    classDef contributor fill:#f9f,color:#000,stroke:#333,stroke-width:2px;
+    classDef governance fill:#bbf,color:#000,stroke:#333,stroke-width:2px;
+    classDef technical fill:#bfb,color:#000,stroke:#333,stroke-width:2px;
+    classDef celebratory fill:#ffb,color:#000,stroke:#333,stroke-width:2px;
 ```
 
 ---
-
-## Repo Ecosystem Diagram
-
-```mermaid
-graph TD
-    A[MAG-COC Hub] --> B[ClashComm-HOME]
-    A --> C[Aggregated-COC-APIs]
-    A --> D[COC-Dashboard]
-    A --> E[CWL-Rosters]
-    A --> F[Community-Noticeboard]
-    A --> G[Community-Stats]
-
-    %% Assign classes
-    class B governance
-    class C,D analytics
-    class E,F,G community
-
-    %% Define styles
-    classDef governance fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef analytics fill:#bfb,stroke:#333,stroke-width:2px;
-    classDef community fill:#ffb,stroke:#333,stroke-width:2px;
-```
 
 ```mermaid
 flowchart TD
@@ -143,6 +121,42 @@ flowchart TD
     P --> P2[War Stats]
     P --> P3[CWL Performance]
 ```
+
+---
+
+## Repo Ecosystem Diagram
+
+```mermaid
+graph TD
+    A[MAG-COC Hub] --> B[ClashComm-HOME]
+    A --> C[Aggregated-COC-APIs]
+    A --> D[COC-Dashboard]
+    A --> E[CWL-Rosters]
+    A --> F[Community-Noticeboard]
+    A --> G[Community-Stats]
+
+    %% Assign classes
+    class B governance
+    class C,D analytics
+    class E,F,G community
+
+    %% Define styles (high contrast for visibility)
+    classDef governance fill:#4da6ff,color:#000,stroke:#333,stroke-width:2px;
+    classDef analytics fill:#66cc66,color:#000,stroke:#333,stroke-width:2px;
+    classDef community fill:#ffcc66,color:#000,stroke:#333,stroke-width:2px;
+```
+
+---
+
+## 🔹 Style Choices
+- **Governance repos (blue)** → ClashComm‑HOME  
+- **Analytics repos (green)** → APIs + Dashboard  
+- **Community repos (gold)** → Rosters, Noticeboard, Stats  
+- **Black text (`color:#000`)** → Ensures labels are always readable against bright fills.  
+- **Dark stroke (`stroke:#333`)** → Keeps node outlines clear.  
+
+---
+
 
 ---
 
