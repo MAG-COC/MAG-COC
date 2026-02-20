@@ -152,7 +152,12 @@ flowchart TD
     class I celebratory
 
     %% Repo ecosystem classes
-    class J,K,K1,K2,L,L1,L2,M,M1,M2,N,N1,N2,O,O1,O2,P,P1,P2,P3 governance
+    class J,K,K1,K2 governance
+    class L,L1,L2 technical
+    class M,M1,M2 technical
+    class N,N1,N2 celebratory
+    class O,O1,O2 celebratory
+    class P,P1,P2,P3 celebratory
 
     %% Define styles with black text
     classDef contributor fill:#f9f,color:#000,stroke:#333,stroke-width:2px;
