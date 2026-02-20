@@ -32,13 +32,13 @@ We build a governance-ready ecosystem for Clash of Clans communities, combining 
 flowchart TD
     %% Governance Lifecycle
     A[👤 Contributor] --> B[📣 Open Issue]
-    B --> C[🎉 Pull Request]
-    C --> D[🛡 Governance Check]
-    D --> E[✅ CHANGELOG + Emoji Legends]
-    E --> F[🏅 Update CONTRIBUTORS.md]
-    F --> G[📊 Build & Test (PHP + Composer)]
-    G --> H[🚀 Deploy to Hostinger]
-    H --> I[🎉 Celebratory Merge & Recognition]
+    B --> C[Pull Request]
+    C --> D[Governance Check]
+    D --> E[CHANGELOG + Emoji Legends]
+    E --> F[Update CONTRIBUTORS.md]
+    F --> G[Build & Test (PHP + Composer)]
+    G --> H[Deploy to Hostinger]
+    H --> I[Celebratory Merge & Recognition]
 
     %% Repo Ecosystem
     I --> J[MAG-COC 🌌]
@@ -47,7 +47,7 @@ flowchart TD
     J --> M[COC-Dashboard 📊]
     J --> N[CWL-Rosters 🏆]
     J --> O[Community-Noticeboard 📣]
-    J --> P[Community-Stats 📊]
+    J --> P[Community-Stats]
 
     %% Sub-nodes for clarity
     K --> K1[Governance Playbooks]
@@ -112,5 +112,4 @@ graph TD
     G --> G1[Analytics]
     G --> G2[War Stats]
     G --> G3[CWL Performance]
-
 ```
