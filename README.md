@@ -1,7 +1,33 @@
-# MAG-COC 🎉
+# Welcome to MAG-COC 🎉
 
-Welcome to the MAG-COC GitHub account!  
-We build a governance-ready ecosystem for Clash of Clans communities, combining technical delivery with celebratory rituals.
+MAG-COC is more than just a GitHub account — it’s a governance-ready ecosystem built for community, clarity, and celebration.  
+Every repo here is designed to empower contributors, ritualize delivery, and make milestones memorable.
+
+---
+
+## 🌌 Our Mission
+We believe open-source should feel like a journey, not just a codebase.  
+That’s why MAG-COC combines technical rigor with playful rituals:
+- 🛡 Governance artifacts ensure compliance and traceability.
+- 🏅 Contributors are recognized and celebrated in every merge.
+- 📜 Milestones are logged in comic-strip style for teachable storytelling.
+- 🎉 Delivery is treated as a community celebration, not just a deployment.
+
+---
+
+## 🚀 What You’ll Find Here
+- **ClashComm-HOME** → Governance playbooks and audit logs  
+- **Aggregated-COC-APIs** → Unified APIs for clan insights  
+- **COC-Dashboard** → Task boards and stats dashboards  
+- **CWL-Rosters** → Roster templates and lifecycle tracking  
+- **Community-Noticeboard** → Announcements and events  
+- **Community-Stats** → Analytics, war stats, CWL performance  
+
+---
+
+## 🎉 Our Culture
+Contributors don’t just commit code — they join a ritual.  
+Every issue, pull request, and merge is part of a lifecycle that celebrates progress, empowers stakeholders, and future-proofs the platform.
 
 ---
 
@@ -38,11 +64,43 @@ flowchart TD
     F --> G[Build and Test with PHP Composer]
     G --> H[Deploy to Hostinger]
     H --> I[Celebratory Merge and Recognition]
+
+    %% Assign classes
+    class A,B,C contributor
+    class D,E,F governance
+    class G,H technical
+    class I celebratory
+
+    %% Define styles
+    classDef contributor fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef governance fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef technical fill:#bfb,stroke:#333,stroke-width:2px;
+    classDef celebratory fill:#ffb,stroke:#333,stroke-width:2px;
 ```
 
 ---
 
 ## Repo Ecosystem Diagram
+
+```mermaid
+graph TD
+    A[MAG-COC Hub] --> B[ClashComm-HOME]
+    A --> C[Aggregated-COC-APIs]
+    A --> D[COC-Dashboard]
+    A --> E[CWL-Rosters]
+    A --> F[Community-Noticeboard]
+    A --> G[Community-Stats]
+
+    %% Assign classes
+    class B governance
+    class C,D analytics
+    class E,F,G community
+
+    %% Define styles
+    classDef governance fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef analytics fill:#bfb,stroke:#333,stroke-width:2px;
+    classDef community fill:#ffb,stroke:#333,stroke-width:2px;
+```
 
 ```mermaid
 flowchart TD
@@ -85,3 +143,23 @@ flowchart TD
     P --> P2[War Stats]
     P --> P3[CWL Performance]
 ```
+
+---
+
+## Emoji Legend Table
+| Emoji | Meaning                  |
+|-------|--------------------------|
+| ✅    | Completed task           |
+| 📊    | Stats update             |
+| 🏆    | CWL milestone            |
+| 📣    | Announcement             |
+| 🛡    | Governance ritual        |
+| 🎉    | Celebratory merge        |
+
+---
+
+## Governance Suite
+- [CONTRIBUTORS.md](CONTRIBUTORS.md)
+- [CHANGELOG.md](CHANGELOG.md)
+- [LICENSE.md](LICENSE.md)
+- [NOTICE](NOTICE)
