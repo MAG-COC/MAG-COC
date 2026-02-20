@@ -30,13 +30,29 @@ We build a governance-ready ecosystem for Clash of Clans communities, combining 
 
 ```mermaid
 flowchart TD
+    A[Contributor] --> B[Open Issue]
+    B --> C[Pull Request]
+    C --> D[Governance Check]
+    D --> E[CHANGELOG and Legends]
+    E --> F[Update CONTRIBUTORS.md]
+    F --> G[Build and Test with PHP Composer]
+    G --> H[Deploy to Hostinger]
+    H --> I[Celebratory Merge and Recognition]
+```
+
+---
+
+## Repo Ecosystem Diagram
+
+```mermaid
+flowchart TD
     %% Governance Lifecycle
     A[Contributor] --> B[Open Issue]
     B --> C[Pull Request]
     C --> D[Governance Check]
     D --> E[CHANGELOG + Emoji Legends]
     E --> F[Update CONTRIBUTORS.md]
-    F --> G[Build & Test (PHP + Composer)]
+    F --> G[Build & Test PHP + Composer]
     G --> H[Deploy to Hostinger]
     H --> I[Celebratory Merge & Recognition]
 
@@ -45,8 +61,8 @@ flowchart TD
     J --> K[ClashComm-HOME]
     J --> L[Aggregated-COC-APIs]
     J --> M[COC-Dashboard]
-    J --> N[CWL-Rosters ]
-    J --> O[Community-Noticeboard 
+    J --> N[CWL-Rosters]
+    J --> O[Community-Noticeboard]
     J --> P[Community-Stats]
 
     %% Sub-nodes for clarity
@@ -68,48 +84,4 @@ flowchart TD
     P --> P1[Analytics]
     P --> P2[War Stats]
     P --> P3[CWL Performance]
-```
----
-
-## Ecosystem
-```mermaid
-flowchart TD
-    A[Contributor] --> B[Open Issue]
-    B --> C[Pull Request]
-    C --> D[Governance Check]
-    D --> E[CHANGELOG + Emoji Legends]
-    E --> F[Update CONTRIBUTORS.md]
-    F --> G[Build & Test (PHP + Composer)]
-    G --> H[Deploy to Hostinger]
-    H --> I[Celebratory Merge & Recognition]
-```
----
-
-```mermaid
-graph TD
-    A[MAG-COC] --> B[ClashComm-HOME]
-    A --> C[Aggregated-COC-APIs]
-    A --> D[COC-Dashboard]
-    A --> E[CWL-Rosters]
-    A --> F[Community-Noticeboard]
-    A --> G[Community-Stats]
-
-    B --> B1[Governance Playbooks]
-    B --> B2[Audit Logs]
-
-    C --> C1[Clan APIs]
-    C --> C2[Aggregated Insights]
-
-    D --> D1[Task Boards]
-    D --> D2[Stats Dashboards]
-
-    E --> E1[Roster Templates]
-    E --> E2[Lifecycle Tracking]
-
-    F --> F1[Announcements]
-    F --> F2[Events]
-
-    G --> G1[Analytics]
-    G --> G2[War Stats]
-    G --> G3[CWL Performance]
 ```
