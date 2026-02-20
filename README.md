@@ -31,7 +31,7 @@ We build a governance-ready ecosystem for Clash of Clans communities, combining 
 ```mermaid
 flowchart TD
     %% Governance Lifecycle
-    A[👤 Contributor] --> B[📣 Open Issue]
+    A[Contributor] --> B[Open Issue]
     B --> C[Pull Request]
     C --> D[Governance Check]
     D --> E[CHANGELOG + Emoji Legends]
