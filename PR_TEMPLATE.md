@@ -1,4 +1,4 @@
-🎉 Contributor Rituals PR Template
+# 🎉 Contributor Rituals PR Template
 This template is designed to make every pull request part of our governance ritual.
 By following it, contributors ensure that issues are linked, changelogs are updated, governance checks are passed, and community milestones are celebrated.
 It keeps contributions teachable, traceable, and fun — turning every merge into a community milestone.
