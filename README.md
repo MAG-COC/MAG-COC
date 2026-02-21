@@ -104,6 +104,8 @@ graph TD
 
 ---
 
+## Lifecycle + Repo Ecosystem Diagram
+
 ```mermaid
 flowchart TD
     %% Governance Lifecycle
@@ -145,6 +147,20 @@ flowchart TD
     P --> P2[War Stats]
     P --> P3[CWL Performance]
 
+    %% Explicit dependencies from Aggregated APIs
+    L --> M
+    L --> N
+    L --> O
+    L --> P
+
+    %% Legend box
+    subgraph Legend [Legend - Repo Categories]
+        Lg1[Contributor]:::contributor
+        Lg2[Governance]:::governance
+        Lg3[Analytics]:::technical
+        Lg4[Community]:::celebratory
+    end
+
     %% Assign classes
     class A,B,C contributor
     class D,E,F governance
@@ -164,6 +180,7 @@ flowchart TD
     classDef governance fill:#bbf,color:#000,stroke:#333,stroke-width:2px;
     classDef technical fill:#bfb,color:#000,stroke:#333,stroke-width:2px;
     classDef celebratory fill:#ffb,color:#000,stroke:#333,stroke-width:2px;
+
 ```
 
 ---
@@ -174,9 +191,6 @@ flowchart TD
 - **Community repos (gold)** → Rosters, Noticeboard, Stats  
 - **Black text (`color:#000`)** → Ensures labels are always readable against bright fills.  
 - **Dark stroke (`stroke:#333`)** → Keeps node outlines clear.  
-
----
-
 
 ---
 
