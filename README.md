@@ -185,6 +185,36 @@ flowchart TD
 
 ---
 
+## 📝 Contributor Quick‑Guide
+
+Welcome to the project! This guide explains how contributions flow through governance, analytics, and community repos.
+
+### Governance + Repo Ecosystem Flow
+- Contributors begin by opening issues and submitting pull requests.
+- Governance ensures compliance through checks, changelogs, and contributor updates.
+- Technical repos handle builds, tests, and deployments.
+- Celebratory milestones recognize merges and community achievements.
+- Aggregated‑COC‑APIs act as the backbone service, feeding data into:
+  - Analytics repos (green) → dashboards and insights.
+  - Community repos (gold) → rosters, noticeboards, stats.
+- Governance repos (blue) anchor the ecosystem with lifecycle tracking and playbooks.
+
+### 📝 Contributor Onboarding Checklist
+1. **Open an Issue** → Document bugs, features, or improvements clearly.  
+2. **Submit a Pull Request** → Link PRs to issues and follow coding standards.  
+3. **Governance Check** → Ensure CHANGELOG + emoji legends are updated.  
+4. **Update Contributors** → Add yourself to `CONTRIBUTORS.md`.  
+5. **Build & Test** → Run PHP + Composer builds and validate tests.  
+6. **Deploy** → Push changes to Hostinger and confirm logs.  
+7. **Merge & Celebrate** → Governance approves → PR merged → recognition milestone logged.  
+8. **Repo Ecosystem Integration** → Your contribution flows into governance, analytics, and community repos via Aggregated APIs.  
+
+---
+
+## 🔹 Style Choices
+...
+
+
 ## 🔹 Style Choices
 - **Governance repos (blue)** → ClashComm‑HOME  
 - **Analytics repos (green)** → APIs + Dashboard  
