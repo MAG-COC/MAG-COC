@@ -212,10 +212,6 @@ Welcome to the project! This guide explains how contributions flow through gover
 ---
 
 ## 🔹 Style Choices
-...
-
-
-## 🔹 Style Choices
 - **Governance repos (blue)** → ClashComm‑HOME  
 - **Analytics repos (green)** → APIs + Dashboard  
 - **Community repos (gold)** → Rosters, Noticeboard, Stats  
