@@ -232,8 +232,10 @@ Welcome to the project! This guide explains how contributions flow through gover
 
 ---
 
-## Governance Suite
-- [CONTRIBUTORS.md](CONTRIBUTORS.md)
-- [CHANGELOG.md](CHANGELOG.md)
-- [LICENSE.md](LICENSE.md)
-- [NOTICE](NOTICE)
+## 📘 Governance Suite
+- [CONTRIBUTORS.md](CONTRIBUTORS.md) → Celebrates every contributor
+- [CHANGELOG.md](CHANGELOG.md) → Comic‑strip style milestone logs
+- [LICENSE.md](LICENSE.md) → Apache 2.0 legal clarity
+- [NOTICE](NOTICE) → Attribution + celebratory recognition
+- 📘 Contributor Rituals → See [MAG‑COC/docs/Contributor-Rituals.md](../MAG-COC/docs/Contributor-Rituals.md)
+
